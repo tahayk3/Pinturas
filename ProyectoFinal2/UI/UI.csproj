@@ -1,0 +1,503 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{580529DF-B2ED-4E83-B708-A9544C4FDF5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD2FinalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet101.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet101.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet111.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet111.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet121.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet121.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BD2FinalDataSet92.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD2FinalDataSet92.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FormCambiarUC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCambiarUC.Designer.cs">
+      <DependentUpon>FormCambiarUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCategoriaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCategoriaProducto.Designer.cs">
+      <DependentUpon>FormCategoriaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormControlAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormControlAlmacen.Designer.cs">
+      <DependentUpon>FormControlAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDepartamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDepartamento.Designer.cs">
+      <DependentUpon>FormDepartamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExistencia.Designer.cs">
+      <DependentUpon>FormExistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFactura.Designer.cs">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistorialPrecioVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistorialPrecioVenta.Designer.cs">
+      <DependentUpon>FormHistorialPrecioVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIngresar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIngresar.Designer.cs">
+      <DependentUpon>FormIngresar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPedido.Designer.cs">
+      <DependentUpon>FormPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProducto.Designer.cs">
+      <DependentUpon>FormProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProveedores.Designer.cs">
+      <DependentUpon>FormProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportes.Designer.cs">
+      <DependentUpon>FormReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSerieFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSerieFactura.Designer.cs">
+      <DependentUpon>FormSerieFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSubCategoriaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSubCategoriaProducto.Designer.cs">
+      <DependentUpon>FormSubCategoriaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsuarios.Designer.cs">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMetodoPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMetodoPago.Designer.cs">
+      <DependentUpon>FormMetodoPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="FormCambiarUC.resx">
+      <DependentUpon>FormCambiarUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCategoriaProducto.resx">
+      <DependentUpon>FormCategoriaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormControlAlmacen.resx">
+      <DependentUpon>FormControlAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDepartamento.resx">
+      <DependentUpon>FormDepartamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExistencia.resx">
+      <DependentUpon>FormExistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFactura.resx">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistorialPrecioVenta.resx">
+      <DependentUpon>FormHistorialPrecioVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIngresar.resx">
+      <DependentUpon>FormIngresar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPedido.resx">
+      <DependentUpon>FormPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProducto.resx">
+      <DependentUpon>FormProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProveedores.resx">
+      <DependentUpon>FormProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportes.resx">
+      <DependentUpon>FormReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSerieFactura.resx">
+      <DependentUpon>FormSerieFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSubCategoriaProducto.resx">
+      <DependentUpon>FormSubCategoriaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsuarios.resx">
+      <DependentUpon>FormUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMetodoPago.resx">
+      <DependentUpon>FormMetodoPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Reportes\Estadistica2.rdlc" />
+    <EmbeddedResource Include="Reportes\Estadistica3.rdlc" />
+    <EmbeddedResource Include="Reportes\R1.rdlc" />
+    <EmbeddedResource Include="Reportes\R2.rdlc" />
+    <EmbeddedResource Include="Reportes\R3.rdlc" />
+    <EmbeddedResource Include="Reportes\R4.rdlc" />
+    <EmbeddedResource Include="Reportes\R5.rdlc" />
+    <None Include="BD2FinalDataSet.xsc">
+      <DependentUpon>BD2FinalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet.xss">
+      <DependentUpon>BD2FinalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet101.xsc">
+      <DependentUpon>BD2FinalDataSet101.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet101.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet101.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet101.xss">
+      <DependentUpon>BD2FinalDataSet101.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet111.xsc">
+      <DependentUpon>BD2FinalDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet111.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet111.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet111.xss">
+      <DependentUpon>BD2FinalDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet121.xsc">
+      <DependentUpon>BD2FinalDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet121.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet121.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet121.xss">
+      <DependentUpon>BD2FinalDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet2.xsc">
+      <DependentUpon>BD2FinalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet2.xss">
+      <DependentUpon>BD2FinalDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet3.xsc">
+      <DependentUpon>BD2FinalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet3.xss">
+      <DependentUpon>BD2FinalDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet4.xsc">
+      <DependentUpon>BD2FinalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet4.xss">
+      <DependentUpon>BD2FinalDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet5.xsc">
+      <DependentUpon>BD2FinalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet5.xss">
+      <DependentUpon>BD2FinalDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet6.xsc">
+      <DependentUpon>BD2FinalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet6.xss">
+      <DependentUpon>BD2FinalDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet7.xsc">
+      <DependentUpon>BD2FinalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet7.xss">
+      <DependentUpon>BD2FinalDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet8.xsc">
+      <DependentUpon>BD2FinalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet8.xss">
+      <DependentUpon>BD2FinalDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet92.xsc">
+      <DependentUpon>BD2FinalDataSet92.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet92.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet92.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet92.xss">
+      <DependentUpon>BD2FinalDataSet92.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\DAL.DataSetClienteTableAdapters.Cliente2TableAdapter.datasource" />
+    <None Include="Properties\DataSources\DAL.DataSetEmpleadoTableAdapters.View_Info_EmpleadoTableAdapter.datasource" />
+    <None Include="Properties\DataSources\DAL.DataSetEstadisticasTableAdapters.estadistica1TableAdapter.datasource" />
+    <None Include="Properties\DataSources\DAL.DataSetEstadisticasTableAdapters.Metodo_pagoTableAdapter.datasource" />
+    <None Include="Properties\DataSources\DAL.DataSetEstadisticasTableAdapters.ProductoMasVendido10_Adapter.datasource" />
+    <None Include="Properties\DataSources\DAL.DataSetHistorialPrecioVentaTableAdapters.HistorialPrecioVentaTableAdapter.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{2db9d052-ae01-4343-a438-91d4b8e32389}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{0B1A47C7-8A34-4CB7-BF43-8D610F395971}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="imagenes\1.jpg" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

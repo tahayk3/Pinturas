@@ -1,0 +1,2 @@
+D:\c#\ProyectoFinal2\ProyectoFinal2\obj\Debug\ProyectoFinal2.csprojAssemblyReference.cache
+D:\c#\ProyectoFinal2\ProyectoFinal2\obj\Debug\ProyectoFinal2.csproj.CoreCompileInputs.cache

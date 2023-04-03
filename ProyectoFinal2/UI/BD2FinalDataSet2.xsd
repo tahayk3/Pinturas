@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BD2FinalDataSet2" targetNamespace="http://tempuri.org/BD2FinalDataSet2.xsd" xmlns:mstns="http://tempuri.org/BD2FinalDataSet2.xsd" xmlns="http://tempuri.org/BD2FinalDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BD2FinalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BD2FinalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.UI.Properties.Settings.GlobalReference.Default.BD2FinalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="estadistica3TableAdapter" GeneratorDataComponentClassName="estadistica3TableAdapter" Name="estadistica3" UserDataComponentName="estadistica3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="BD2FinalConnectionString (Settings)" DbObjectName="BD2Final.dbo.estadistica3" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT Clientes_con_mas_consumo, Nombre_cliente FROM dbo.estadistica3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Clientes_con_mas_consumo" DataSetColumn="Clientes_con_mas_consumo" />
+              <Mapping SourceColumn="Nombre_cliente" DataSetColumn="Nombre_cliente" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="BD2FinalDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="BD2FinalDataSet2" msprop:Generator_UserDSName="BD2FinalDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="estadistica3" msprop:Generator_TableClassName="estadistica3DataTable" msprop:Generator_TableVarName="tableestadistica3" msprop:Generator_TablePropName="estadistica3" msprop:Generator_RowDeletingName="estadistica3RowDeleting" msprop:Generator_RowChangingName="estadistica3RowChanging" msprop:Generator_RowEvHandlerName="estadistica3RowChangeEventHandler" msprop:Generator_RowDeletedName="estadistica3RowDeleted" msprop:Generator_UserTableName="estadistica3" msprop:Generator_RowChangedName="estadistica3RowChanged" msprop:Generator_RowEvArgName="estadistica3RowChangeEvent" msprop:Generator_RowClassName="estadistica3Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Clientes_con_mas_consumo" msprop:Generator_ColumnVarNameInTable="columnClientes_con_mas_consumo" msprop:Generator_ColumnPropNameInRow="Clientes_con_mas_consumo" msprop:Generator_ColumnPropNameInTable="Clientes_con_mas_consumoColumn" msprop:Generator_UserColumnName="Clientes_con_mas_consumo" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Nombre_cliente" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnNombre_cliente" msprop:Generator_ColumnPropNameInRow="Nombre_cliente" msprop:Generator_ColumnPropNameInTable="Nombre_clienteColumn" msprop:Generator_UserColumnName="Nombre_cliente" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="123" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

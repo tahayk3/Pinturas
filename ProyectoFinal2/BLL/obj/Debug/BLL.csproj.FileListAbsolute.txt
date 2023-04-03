@@ -1,0 +1,241 @@
+D:\c#\ProyectoFinal2\BLL\bin\Debug\BLL.dll
+D:\c#\ProyectoFinal2\BLL\bin\Debug\BLL.pdb
+D:\c#\ProyectoFinal2\BLL\bin\Debug\DAL.dll
+D:\c#\ProyectoFinal2\BLL\bin\Debug\DAL.pdb
+D:\c#\ProyectoFinal2\BLL\bin\Debug\DAL.dll.config
+D:\c#\ProyectoFinal2\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\c#\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\c#\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\c#\ProyectoFinal2\BLL\obj\Debug\BLL.dll
+D:\c#\ProyectoFinal2\BLL\obj\Debug\BLL.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\BLL.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\BLL.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\DAL.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\DAL.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\DAL.dll.config
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\obj\Debug\BLL.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\obj\Debug\BLL.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.xml
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.xml
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.pdb
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.xml
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\EnvDTE.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\stdole.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\Microsoft.MSXML.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\c#\Cristian Rene Ivan Tahat Batz 201808003\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\BLL.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\BLL.pdb
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\DAL.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\EnvDTE.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\stdole.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\DAL.pdb
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\DAL.dll.config
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.pdb
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.xml
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.pdb
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.xml
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\obj\Debug\BLL.dll
+C:\Users\Crist\Desktop\Fase 2 Factura\ProyectoFinal2\BLL\obj\Debug\BLL.pdb
+C:\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\ProyectoFinal2\BLL\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\ProyectoFinal2\BLL\bin\Debug\BLL.dll
+C:\ProyectoFinal2\BLL\bin\Debug\BLL.pdb
+C:\ProyectoFinal2\BLL\bin\Debug\DAL.dll
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.dll
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.dll
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\ProyectoFinal2\BLL\bin\Debug\EnvDTE.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\ProyectoFinal2\BLL\bin\Debug\stdole.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\ProyectoFinal2\BLL\bin\Debug\Microsoft.MSXML.dll
+C:\ProyectoFinal2\BLL\bin\Debug\DAL.pdb
+C:\ProyectoFinal2\BLL\bin\Debug\DAL.dll.config
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.pdb
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.xml
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.pdb
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.WinForms.xml
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.pdb
+C:\ProyectoFinal2\BLL\bin\Debug\LiveCharts.Wpf.xml
+C:\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\ProyectoFinal2\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\ProyectoFinal2\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\ProyectoFinal2\BLL\obj\Debug\BLL.dll
+C:\ProyectoFinal2\BLL\obj\Debug\BLL.pdb

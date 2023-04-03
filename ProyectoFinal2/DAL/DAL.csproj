@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0B1A47C7-8A34-4CB7-BF43-8D610F395971}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1404.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BD2FinalDataSet.Designer.cs">
+      <DependentUpon>BD2FinalDataSet.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DataSetCategoriaProducto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCategoriaProducto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCliente.cs">
+      <DependentUpon>DataSetCliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetCliente.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCliente.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetComprobarUser.cs">
+      <DependentUpon>DataSetComprobarUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetComprobarUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetComprobarUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetControlAlmacen.cs">
+      <DependentUpon>DataSetControlAlmacen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetControlAlmacen.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetControlAlmacen.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDepartamento.cs">
+      <DependentUpon>DataSetDepartamento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDepartamento.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDepartamento.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDepartamentoComboBox.cs">
+      <DependentUpon>DataSetDepartamentoComboBox.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetDepartamentoComboBox.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetDepartamentoComboBox.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetEmpleado.cs">
+      <DependentUpon>DataSetEmpleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetEmpleado.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetEmpleado.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetEstadisticas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetEstadisticas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetFactura.cs">
+      <DependentUpon>DataSetFactura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetFactura.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetFactura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetHistorialPrecioVenta.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetHistorialPrecioVenta.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetMetodoPago.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetMetodoPago.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPedido.cs">
+      <DependentUpon>DataSetPedido.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPedido.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPedido.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetProducto.cs">
+      <DependentUpon>DataSetProducto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetProducto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetProducto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetProveedores.cs">
+      <DependentUpon>DataSetProveedores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetProveedores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetProveedores.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetSerieFactura.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetSerieFactura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetSubCategoria.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetSubCategoria.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BD2FinalDataSet.xsc">
+      <DependentUpon>BD2FinalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BD2FinalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD2FinalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BD2FinalDataSet.xss">
+      <DependentUpon>BD2FinalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCategoriaProducto.xsc">
+      <DependentUpon>DataSetCategoriaProducto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCategoriaProducto.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCategoriaProducto.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetCategoriaProducto.xss">
+      <DependentUpon>DataSetCategoriaProducto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCliente.xsc">
+      <DependentUpon>DataSetCliente.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetCliente.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCliente.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetCliente.xss">
+      <DependentUpon>DataSetCliente.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetComprobarUser.xsc">
+      <DependentUpon>DataSetComprobarUser.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetComprobarUser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetComprobarUser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetComprobarUser.xss">
+      <DependentUpon>DataSetComprobarUser.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetControlAlmacen.xsc">
+      <DependentUpon>DataSetControlAlmacen.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetControlAlmacen.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetControlAlmacen.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetControlAlmacen.xss">
+      <DependentUpon>DataSetControlAlmacen.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDepartamento.xsc">
+      <DependentUpon>DataSetDepartamento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDepartamento.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDepartamento.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetDepartamento.xss">
+      <DependentUpon>DataSetDepartamento.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDepartamentoComboBox.xsc">
+      <DependentUpon>DataSetDepartamentoComboBox.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetDepartamentoComboBox.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetDepartamentoComboBox.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetDepartamentoComboBox.xss">
+      <DependentUpon>DataSetDepartamentoComboBox.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEmpleado.xsc">
+      <DependentUpon>DataSetEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEmpleado.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEmpleado.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetEmpleado.xss">
+      <DependentUpon>DataSetEmpleado.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEstadisticas.xsc">
+      <DependentUpon>DataSetEstadisticas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetEstadisticas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetEstadisticas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetEstadisticas.xss">
+      <DependentUpon>DataSetEstadisticas.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetFactura.xsc">
+      <DependentUpon>DataSetFactura.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetFactura.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetFactura.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetFactura.xss">
+      <DependentUpon>DataSetFactura.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetHistorialPrecioVenta.xsc">
+      <DependentUpon>DataSetHistorialPrecioVenta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetHistorialPrecioVenta.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetHistorialPrecioVenta.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetHistorialPrecioVenta.xss">
+      <DependentUpon>DataSetHistorialPrecioVenta.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMetodoPago.xsc">
+      <DependentUpon>DataSetMetodoPago.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetMetodoPago.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetMetodoPago.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetMetodoPago.xss">
+      <DependentUpon>DataSetMetodoPago.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPedido.xsc">
+      <DependentUpon>DataSetPedido.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPedido.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPedido.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetPedido.xss">
+      <DependentUpon>DataSetPedido.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetProducto.xsc">
+      <DependentUpon>DataSetProducto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetProducto.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetProducto.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetProducto.xss">
+      <DependentUpon>DataSetProducto.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetProveedores.xsc">
+      <DependentUpon>DataSetProveedores.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetProveedores.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetProveedores.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetProveedores.xss">
+      <DependentUpon>DataSetProveedores.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetSerieFactura.xsc">
+      <DependentUpon>DataSetSerieFactura.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetSerieFactura.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetSerieFactura.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetSerieFactura.xss">
+      <DependentUpon>DataSetSerieFactura.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetSubCategoria.xsc">
+      <DependentUpon>DataSetSubCategoria.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetSubCategoria.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetSubCategoria.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetSubCategoria.xss">
+      <DependentUpon>DataSetSubCategoria.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
